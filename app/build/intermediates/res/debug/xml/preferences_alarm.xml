@@ -1,0 +1,13 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="Alarms">
+
+        <CheckBoxPreference
+                android:key="checkbox_preference"
+                android:title="Checkbox Preference"
+                android:summary="Checkbox Summary" />
+
+    </PreferenceCategory>
+</PreferenceScreen><!-- From: file:/home/mayo/Workspace/Android/Projects/Inspiee/app/src/main/res/xml/preferences_alarm.xml -->

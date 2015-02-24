@@ -1,0 +1,38 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+       <header
+        android:fragment="com.mayo.inspiee.activities.ActPreferences$FragAlarmPreferences"
+        android:icon="@drawable/ic_action_time"
+        android:summary="Set Alarms"
+        android:title="Alarms" />
+    -->
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <!--
+    <PreferenceCategory android:title="Alarms" >
+    </PreferenceCategory>
+        -->
+        <PreferenceCategory android:title="Personalities" >
+            <MultiSelectListPreference
+                android:entries="@array/entries"
+                android:entryValues="@array/values"
+                android:key="PERSONALITIES_LIST"
+                android:summary="choose favorite personalities"
+                android:title="Choose Favorite Personalities" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <!--
+         <header
+        android:fragment="com.example.android.apis.preference.PreferenceWithHeaders$FragPersonalitiesPreferences"
+        android:icon="@drawable/ic_action_time"
+        android:summary="Set Evening Alarm"
+        android:title="Evening Alarm" />
+    -->
+    <header
+        android:fragment="com.mayo.inspiee.activities.ActPreferences$FragPersonalitiesPreferences"
+        android:icon="@drawable/ic_action_person"
+        android:summary="Set Favorite Personality"
+        android:title="Personalities" />
+
+</preference-headers><!-- From: file:/home/mayo/Workspace/Android/Projects/Inspiee/app/src/main/res/xml/preferences_header.xml -->

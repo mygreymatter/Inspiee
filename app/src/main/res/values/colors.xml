@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- http://kuler.adobe.com -->
+<resources>
+    <!--  Theme: BlueSky Color-->
+	<color name="background_activity">#A6B2C2</color>
+	<color name="background_fragment">#71848F</color>
+	<color name="background_button">#4C678F</color>
+	<!--  Theme: Theme 2  -->
+	<color name="font_button">#99BFB1</color>
+	
+</resources>

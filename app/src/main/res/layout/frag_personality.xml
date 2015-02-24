@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_fragment"
+    android:clickable="true" 
+    android:padding="@dimen/activity_vertical_margin">
+
+    <!--
+         <TextView
+        android:id="@+id/personDetails"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@android:color/white"
+        android:text="@string/sample_bio"
+        android:textColor="#330000"
+        android:textSize="20sp" />
+    -->
+	<WebView android:id="@+id/personDetails"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sayingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/background_button"
+        android:onClick="showQuotesList"
+        android:text="@string/he_inspires_u"
+        android:textColor="@color/font_button" />
+
+</RelativeLayout>

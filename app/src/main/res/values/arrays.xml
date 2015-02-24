@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries">
+        <item name="ab">ab</item>
+        <item name="bl">bl</item>
+        <item name="rt">rt</item>
+    </string-array>
+    <string-array name="values">
+        <item name="ab">Abraham Lincon</item>
+        <item name="bl">Bruce Lee</item>
+        <item name="rt">Rabindranath Tagore</item>
+    </string-array>
+</resources>

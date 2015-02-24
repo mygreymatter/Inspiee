@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Alarms" >
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Personalities" >
+        <MultiSelectListPreference
+            android:key="PERSONALITIES_LIST"            
+            android:entries="@array/entries"
+            android:entryValues="@array/values"
+            android:summary="choose favorite personalities"
+            android:title="Choose Favorite Personalities" />
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/home/mayo/Workspace/Android/Projects/Inspiee/app/src/main/res/xml/act_preferences.xml -->

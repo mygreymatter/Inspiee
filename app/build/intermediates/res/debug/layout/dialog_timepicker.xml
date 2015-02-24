@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogTimerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"    
+    android:layout_marginTop="10dp"
+    android:gravity="center_horizontal" >
+
+    <NumberPicker
+        android:id="@+id/dialogMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/dialogHours" />
+
+    <NumberPicker
+        android:id="@+id/dialogHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dialogHours"
+        
+        android:layout_marginTop="10dp"
+        android:text="@string/ok" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dialogMinutes"
+        
+        android:layout_marginTop="10dp"
+        android:text="@string/cancel" />
+
+</RelativeLayout><!-- From: file:/home/mayo/Workspace/Android/Projects/Inspiee/app/src/main/res/layout/dialog_timepicker.xml -->
